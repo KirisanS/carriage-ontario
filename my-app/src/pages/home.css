@@ -1,0 +1,142 @@
+.logoContainer {
+    position:relative;
+}
+
+.titleContainer {
+    position:relative;
+}
+
+
+ul {
+    margin:0;
+    padding:0;
+    list-style:none; 
+}
+
+nav {
+    float:right;
+}
+
+
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right:5px;
+    right:-200px;
+    padding-right:20px;
+}
+
+.navButton {
+    border:none;
+    background-color: white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:14px;
+    margin-top:15px;
+
+    font-family: 'Roboto', sans-serif;  
+ 
+
+}
+nav button:hover {
+    color:#000;
+    font-weight:bold;
+}
+
+.titleName {
+    font-size:60px;
+    position:absolute;
+    left:100px;
+    top:200px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.subtext1 {
+    font-size:21px;
+    position:absolute;
+    left:100px;
+    top:295px;
+    color:#444;
+    font-weight:500;
+    
+    font-family: 'Roboto', sans-serif; 
+}
+
+.subtext2 {
+    font-size:17px;
+    position:absolute;
+    left:100px;
+    top:332px;
+    color:#444;
+    font-weight:500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtext3 {
+    font-size:17px;
+    position:absolute;
+    left:100px;
+    top:375px;
+    color:#444;
+    font-style:italic;
+    font-weight:500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contactButton {
+    position:absolute;
+    left:100px;
+    top:440px;
+    color:white;
+    font-weight:510;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, .8);
+
+
+    background-color:rgba(175,31,30,1);
+    padding: 10px 20px;
+    border:none;
+    border-radius:5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.appointmentButton {
+    position:absolute;
+    left:245px;
+    top:440px;
+
+    color:black;
+    font-weight:600;
+    
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius:5px;
+    padding: 10px 20px;
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img1 {
+    width:50%;
+    position:absolute;
+    left:759px;
+    top:100px;
+}
+
+.img2 {
+    width:35%;
+    position:absolute;
+    left:987px;
+    top:360px;
+}
+
+h2 {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    left:50%;
+    position:absolute;
+
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+
+}
