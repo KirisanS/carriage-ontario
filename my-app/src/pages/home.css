@@ -1,3 +1,7 @@
+@media (min-width:1200px) {
+
+
+
 .logoContainer {
     position:relative;
 }
@@ -130,13 +134,99 @@ nav button:hover {
 }
 
 h2 {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    left:50%;
+    display:flex;
+    align-items: center;
     position:absolute;
+    top:750px;
+    left:50%;
+
+    transform: translate(-50%, -50%);
 
     font-family: 'Roboto', sans-serif;
-    font-size:20px;
+    font-size:50px;
+}
 
+.listOfServices {
+    position:absolute;
+    top:950px;
+    height:500px;
+    width:100%;
+    background-color:#F1F1F1;
+}
+
+h3 {
+    display:flex;
+    position:absolute;
+    left:100px;
+    font-family: 'Roboto', sans-serif;
+    font-size:50px;
+}
+
+.servicingText {
+    position:absolute;
+    left:50%;
+    top:825px;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    color:#444;
+    text-align:center;
+}
+
+.serviceCar {
+    width:20%;
+    position:absolute;
+}
+
+.list1 {
+    position:absolute;
+    left:130px;
+    top:200px;
+
+    list-style-image:url("./images/redCheckMark.png");
+}
+
+.list2 {
+    position:absolute;
+    left:600px;
+    top:200px;
+
+    list-style-image:url("./images/redCheckMark.png");
+}
+
+.serviceList {
+    font-family: 'Roboto', sans-serif;
+    font-size:24px;
+    color:#444;
+
+    text-align:left;
+    margin-bottom:20px;
+    margin-top:20px;
+
+    
+}
+
+.listText {
+    position:relative;
+    bottom:2.5px;
+    left:10px;
+}
+
+.serviceLabel1 {
+    position:absolute;
+    left:100px;
+    top:150px;
+    font-family: 'Roboto', sans-serif;
+    font-size:24px;
+    font-weight:bold;
+
+    
+    
+}
+
+
+
+
+
+/* Do not remove */
 }
