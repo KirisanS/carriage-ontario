@@ -1,10 +1,5 @@
-@media (min-width:1200px) {
 
 
-
-.logoContainer {
-    position:relative;
-}
 
 .titleContainer {
     position:relative;
@@ -119,10 +114,17 @@ nav button:hover {
     font-family: 'Roboto', sans-serif;
 }
 
+.titleImgDiv
+{
+    height:100vh;
+    width:100vw;
+}
 .img1 {
+
+    float: right;
+
+
     width:50%;
-    position:absolute;
-    left:759px;
     top:100px;
 }
 
@@ -229,4 +231,3 @@ h3 {
 
 
 /* Do not remove */
-}

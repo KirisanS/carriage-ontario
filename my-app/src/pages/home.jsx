@@ -6,9 +6,9 @@ var IMAGES = [require('./images/redTruck.png'), require('./images/blueCar.png'),
 
 function Home() {
     return (
-        <html>
             <div className="top-level-container">
             <body>
+            
                 <header>
                     <div className="logoContainer">
                         <nav>
@@ -29,8 +29,9 @@ function Home() {
 
                 <button className="contactButton">CONTACT US</button>
                 <button className="appointmentButton">BOOK APPOINTMENT</button>
-                <img className="img1" src={IMAGES[0]} alt=""></img>
-                <img className="img2" src={IMAGES[1]} alt=""></img>
+                <div className="titleImgDiv">
+                    <img className="img2" src={IMAGES[1]} alt=""></img>
+                </div>
 
                 <div className="services">
                     <h2> <center>Servicing</center> </h2>
@@ -57,7 +58,6 @@ function Home() {
                 </div>
             </body>
             </div>
-        </html>
     )
 }
 
